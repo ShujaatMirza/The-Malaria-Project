@@ -1,0 +1,150 @@
+body{
+  color: #666;
+  width: 100%;
+  margin: auto;
+  background: url(texture-noise.png);
+  margin-top: 1.5%;
+}
+
+h1 {
+  font-family: oxygen, sans-serif;
+  color: #259286;
+  font-size: 1.5em;
+  text-align: center;
+}
+h4{
+  font-family:oxygen;
+  font-size: 1em;
+  color: #259286;
+}
+
+.graticule {
+  fill: none;
+  stroke: #018def;
+  stroke-width: .5px;
+  stroke-opacity: .6;
+}
+
+.land {
+  fill: #666;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.block{
+	display:block;
+	margin:auto;
+}
+
+path {
+  stroke: white;
+  stroke-width: 0.3px;
+  fill: grey;
+}
+
+.toolTipHead {
+            font-size: 14px;
+        }
+.d3-tip {
+            line-height: 1.5;
+            padding: 5px;
+            background: #259286;
+            color: white;
+            border-radius: 4px;
+        }
+li.key {
+            float: left;
+            border-top-width: 15px;
+            border-top-style: solid;
+            font-family: "Oxygen";
+            color: #259286;
+            font-size: 12px;
+            font-weight: bold;
+            width: 10%;
+            padding-left: 0;
+            padding-right: 0;
+            list-style:none;
+        }
+
+
+.list-inline{
+  display: block;
+  margin: auto;
+  padding-left: 30%;
+  z-index: 1000;
+  font-family: oxygen;
+}
+
+
+.nav-bar{
+  display: block;
+  margin: auto;
+  width:100%;
+  margin-left: -2%;
+  text-align: center;
+  padding-bottom:0;
+}
+.header li{
+   display: inline-block;
+   margin: auto;
+   padding: 10 10 0 10;
+   font-size: 0.5em;
+}
+.header li a{
+  text-decoration: none;
+  font-family: oxygen;
+  color: #1EB300;
+}
+
+.header li a:hover{
+  color: blue;
+}
+
+.upper-nav{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+#autoplay{
+  color: #1EB300;
+}
+
+#graph{
+  padding-top: 0;
+}
+#free{
+  margin-left: 3%;
+  font-weight: bold;
+  color: #259286;
+  font-size: 0.75em;
+}
+
+#box{
+  width:1em;
+  height: 1em;
+  background-color:grey;
+  display: inline-block;
+}
+#credits{
+  text-align: center;
+  padding-right: 5%;
+  font-family: oxygen;
+  font-size: 0.5em;
+  float: right;
+}
+#credits a{
+    text-decoration: none;
+    color: #259286;
+}
+#about{
+  font-size: 1.6em;
+  color: #259286;
+}
+#about:hover{
+  font-size: 1.8em;
+  color:#1EB300;
+}

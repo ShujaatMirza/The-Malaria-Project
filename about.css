@@ -1,0 +1,51 @@
+body{
+  color: #666;
+  width: 80%;
+  margin: auto;
+  background: url(texture-noise.png);
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+h1 {
+  font-family: oxygen, sans-serif;
+  color: #259286;
+  font-size: 1.5em;
+  text-align: center;
+}
+h2{
+  font-family:oxygen;
+  font-size: 1em;
+  color: #259286;
+  text-align: center;
+}
+p{
+  text-align: left;
+  color: black;
+  font-size: 1.5em;
+}
+
+.btn {
+  font-family: oxygen;
+  color: #259286;
+  font-size: 1.5em;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: grey;
+}
+a{
+  text-decoration: none;
+  color: #259286;
+}
+
+a:hover{
+  color: grey;
+}
+
+credits{
+  
+}
